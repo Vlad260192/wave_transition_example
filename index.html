@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave transition</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="banner">
+        <div class="banner__content">
+            <h1>Wellcome to my world</h1>
+        </div>
+        <svg display="none">
+            <symbol viewBox="0 0 1440 320" preserveAspectRatio="none" id="wave">
+                <path d="M0,128L40,117.3C80,107,160,85,240,101.3C320,117,400,171,480,176C560,181,640,139,720,117.3C800,96,880,96,960,106.7C1040,117,1120,139,1200,138.7C1280,139,1360,117,1400,106.7L1440,96L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path>
+            </symbol>
+        </svg>
+        <svg class="wave__background">
+            <use xlink:href="#wave"></use>
+        </svg>
+    </section>
+
+
+</body>
+</html>
